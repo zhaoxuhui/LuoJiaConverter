@@ -105,6 +105,6 @@ if __name__ == '__main__':
         samp_data = discreteGrayscale(cvt_data, bits=bits)
         writeImage(samp_data, "cvtImg.tif", geo, proj)
     except:
-        print "error!"
-        print "usage:"
-        print "python convert.py input.tif 10"
+        print("error!")
+        print("usage:")
+        print("python convert.py input.tif 10")
